@@ -13,13 +13,13 @@ Tools : <br>
 [3] https://hashes.com/en/tools/hash_identifier - For identifying the hash <br>
 [4] https://hashes.com/en/decrypt/hash - For decrypting MD5
 
-Procedure :
-1) Download the apk and check the soruce code.
-2) Review directly into "com.example.secondapp" > "MainActivity"
-3a) You will see Flag string at the bottom  (line 26)       ---   <code>((TextView) findViewById(R.id.textView)).setText("Success! CTFlearn{" + editText.getText().toString() + "_is_not_secure!}");</code>
-3b) in line 25 you will see hash code ---   <code>if (DigestUtils.md5Hex(editText.getText().toString()).equalsIgnoreCase("b74dec4f39d35b6a2e6c48e637c8aedb")) {</code>
-4) use Tools [3] to identfy the hash and find out it is MD5
-5) use Tools [4] to decrypt MD5 code in 3b)
-6) You will get the password
-7) use Tools [1] to open the apk
-8) enter the password and you will get the flag
+Procedure :<br>
+1) Download the apk and check the soruce code.<br>
+2) Review directly into "com.example.secondapp" > "MainActivity"<br>
+3a) You will see Flag string at the bottom  (line 26)       ---   <code>((TextView) findViewById(R.id.textView)).setText("Success! CTFlearn{" + editText.getText().toString() + "_is_not_secure!}");</code><br>
+3b) in line 25 you will see hash code ---   <code>if (DigestUtils.md5Hex(editText.getText().toString()).equalsIgnoreCase("b74dec4f39d35b6a2e6c48e637c8aedb")) {</code><br>
+4) use Tools [3] to identfy the hash and find out it is MD5<br>
+5) use Tools [4] to decrypt MD5 code in 3b)<br>
+6) You will get the password<br>
+7) use Tools [1] to open the apk<br>
+8) enter the password and you will get the flag<br>
