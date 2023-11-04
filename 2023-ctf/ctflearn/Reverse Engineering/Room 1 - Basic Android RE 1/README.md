@@ -15,6 +15,8 @@ Tools : <br>
 
 Procedure :<br>
 1) Download the apk and check the soruce code.<br>
+<img src="https://raw.githubusercontent.com/RemusDBD/remusctf-writeup/main/2023-ctf/ctflearn/Reverse%20Engineering/Room%201%20-%20Basic%20Android%20RE%201/roomlayout.png
+" width="50%" height="50%">
 2) Review directly into "com.example.secondapp" > "MainActivity"<br>
 3a) You will see Flag string at the bottom  (line 26) <code>((TextView) findViewById(R.id.textView)).setText("Success! CTFlearn{" + editText.getText().toString() + "_is_not_secure!}");</code><br>
 3b) in upper line you will see hash code (line 25) <code>if (DigestUtils.md5Hex(editText.getText().toString()).equalsIgnoreCase("b74dec4f39d35b6a2e6c48e637c8aedb")) {</code><br>
