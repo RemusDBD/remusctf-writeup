@@ -19,7 +19,7 @@ Procedure :<br>
 1) Download the apk (and all the Tools if you do not have)<br>
 <img src="https://raw.githubusercontent.com/RemusDBD/remusctf-writeup/main/2023-ctf/ctflearn/Reverse%20Engineering/Room%201%20-%20Basic%20Android%20RE%201/roomlayout.png" width="50%" height="50%">
 2) Use Tool [2] and review source code directly into "com.example.secondapp" > "MainActivity"<br>
-<img src="https://raw.githubusercontent.com/RemusDBD/remusctf-writeup/main/2023-ctf/ctflearn/Reverse%20Engineering/Room%201%20-%20Basic%20Android%20RE%201/jaxxgui.png" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/RemusDBD/remusctf-writeup/main/2023-ctf/ctflearn/Reverse%20Engineering/Room%201%20-%20Basic%20Android%20RE%201/jadxgui.png" width="50%" height="50%">
 3a) You will see Flag string at the bottom  (line 26) <code>((TextView) findViewById(R.id.textView)).setText("Success! CTFlearn{" + editText.getText().toString() + "_is_not_secure!}");</code><br>
 3b) in upper line you will see hash code (line 25) <code>if (DigestUtils.md5Hex(editText.getText().toString()).equalsIgnoreCase("b74dec4f39d35b6a2e6c48e637c8aedb")) {</code><br>
 4) use Tools [3] to identfy the hash and find out it is MD5<br>
