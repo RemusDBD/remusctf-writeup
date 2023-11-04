@@ -23,3 +23,5 @@ Procedure :<br>
 6) You will get the password<br>
 7) use Tools [1] to open the apk<br>
 8) enter the password and you will get the flag<br>
+
+<img src="[url](https://github.com/RemusDBD/remusctf-writeup/blob/main/2023-ctf/ctflearn/Reverse%20Engineering/Room%201%20-%20Basic%20Android%20RE%201/flag.png?raw=true)https://github.com/RemusDBD/remusctf-writeup/blob/main/2023-ctf/ctflearn/Reverse%20Engineering/Room%201%20-%20Basic%20Android%20RE%201/flag.png?raw=true" width="50%" height="50%">
