@@ -7,13 +7,11 @@ Date Finish : 5/11/2023
 
 Reviewed any writeup : N/A
 
-Tools : 
-[1] BlueStacks - For opening apk
-[2] JADX-GUI - For reversing apk
-[3] https://hashes.com/en/tools/hash_identifier - For identfy the hash
-<br>
-[4] https://hashes.com/en/decrypt/hash - For decrypt MD5
-<br>
+Tools : <br>
+[1] BlueStacks - For opening apk <br>
+[2] JADX-GUI - For reversing apk <br>
+[3] https://hashes.com/en/tools/hash_identifier - For identifying the hash <br>
+[4] https://hashes.com/en/decrypt/hash - For decrypting MD5
 
 Procedure :
 1) Download the apk and check the soruce code.
