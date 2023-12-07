@@ -12,11 +12,10 @@ OS : Ubuntu
 
 Procedure :
 
-  1. Download the room file ch1.zip (and all the Tools if you do not have)
+ 	1. Download the room file ch1.zip (and all the Tools if you do not have)
 	2. Extract the zip file and you will get ch1.bin
 	3. Open the terminal and run the bin file with ./ch1.bin
 	4. You are asked to enter to password
- 
 	5. Run Radare2 on your terminal with : 
 	r2 -dA ch1.bin -> afl -> pdf@main
 	You should successfully disassemble the code from a binary
