@@ -1,0 +1,139 @@
+TryHackMe | Breaching Active Directory
+
+Room’s learning objectives
+
+Based on the room’s learning objectives, we will learn multiple ways to recover AD username and password in NTLM, LDAP, relays attack, toolkit and altering config files.
+
+
+
+NTLM vs LDAP
+
+NTLM and NTLM Authentication / NetNTLM definition 
+
+NetNTLM process diagram
+
+LDAP definition
+
+attack surface similar to NTLM
+
+LDAP Auth process diagram
+
+
+
+Based on the above definitions, 
+
+the app uses LDAP Auth will directly verifies the user’s username and password, but NTLM are not
+
+third party's apps will use LDAP Auth, but NTLM are not
+
+LDAP auth username and password can be stored in plain text
+
+
+
+LDAP Pass-back Attacks
+
+Common attack in network devices by changing the LDAP config to our own malicious configuration to get the username and password
+
+Example
+
+Above could be a real-life example of a network device (e.g. printer) that is exposed to the internet and let whoever access this page to alter the config
+
+Same attack still happens nowadays. Above is web app plugin. NVD - CVE-2023-4505 (nist.gov)
+
+config page of the web app pluginCVE-2023–4505: LDAP Passback on miniOrange | Medium 
+
+
+
+Quick Demo in the room
+
+tcpdump on 389 port to capture LDAP packet
+
+Lightweight Directory Access Protocol - Wikipedia
+
+got the service LDAP password in plaintext.
+
+Server Message Block (SMB)
+
+
+
+LLMNR, NBT-NS, and WPAD
+
+
+
+Intercepting NetNTLM Challenge
+
+
+
+using responder to capture hash
+
+responder hash captured
+
+using hashcat to crack the hash
+
+hash cracked
+
+Relaying the Challenge
+
+
+
+
+
+MDT and SCCM
+
+
+
+PXE Boot
+
+
+
+
+
+
+
+PXE Boot Image Retrieval
+
+
+
+
+
+
+
+access to the target
+
+locate the powerpxe script location
+
+download the bcd file to our local machine
+
+using PowerPXE script to recover username and password
+
+Configuration File Credentials
+
+
+
+ma.db location
+
+use scp to download the ma.db from our local machine 
+
+
+
+use sqlitebroswer to open ma.db 
+
+In AGENT_REPOSITORIES there’s a AUTH_USER & AUTH_PASSWD
+
+Run the command python2 mcafee_sitelist_pwd_decrypt.py to crack the hash
+
+
+
+References: 
+
+https://tryhackme.com/r/room/breachingad
+
+https://www.youtube.com/watch?v=Qg-yriM3mBg
+
+https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
+
+https://blog.csdn.net/weixin_65550121/article/details/134916832
+
+https://nvd.nist.gov/vuln/detail/CVE-2023-4505
+
+https://medium.com/@cybertrinchera/cve-2023-4506-cve-2023-4505-ldap-passback-on-miniorange-plugins-ca7328c84313
