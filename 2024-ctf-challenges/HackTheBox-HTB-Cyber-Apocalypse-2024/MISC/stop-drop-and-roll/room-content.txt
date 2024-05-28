@@ -1,0 +1,27 @@
+===== THE FRAY: THE VIDEO GAME =====
+Welcome!
+This video game is very simple
+You are a competitor in The Fray, running the GAUNTLET
+I will give you one of three scenarios: GORGE, PHREAK or FIRE
+You have to tell me if I need to STOP, DROP or ROLL
+If I tell you there's a GORGE, you send back STOP
+If I tell you there's a PHREAK, you send back DROP
+If I tell you there's a FIRE, you send back ROLL
+Sometimes, I will send back more than one! Like this: 
+GORGE, FIRE, PHREAK
+In this case, you need to send back STOP-ROLL-DROP!
+
+// then will ask user to input y/n
+Are you ready? (y/n)
+
+// After that the game begin
+
+Ok then! Let's go!
+
+PHREAK, FIRE, FIRE, PHREAK // question
+What do you do? { } //{ } for input here the answer is DROP-ROLL-ROLL-DROP
+
+// if it is just single 
+
+FIRE 
+What do you do? ROLL // user-input
