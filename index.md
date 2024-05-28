@@ -1,5 +1,5 @@
 ---
-title: CTF WriteUps
+title: Remus-CTF-Writeup
 layout: default
 ---
 
