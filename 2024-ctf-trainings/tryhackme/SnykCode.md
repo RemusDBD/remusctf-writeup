@@ -7,7 +7,7 @@ tags:
   - N/A
 ---
 
-This is a INFO room from [TryHackMe](https://www.tryhackme.com/) and this room can be found @ https://tryhackme.com/r/room/snykcode. 
+This is a INFO room from [TryHackMe](https://www.tryhackme.com/) and this room can be found @ https://tryhackme.com/r/room/snykcode. <br>
 Key lessons learnt here:    
 <br>
     > Identify security vulnerabilities and understand the significance of integrating security testing throughout the SDLC <br>
