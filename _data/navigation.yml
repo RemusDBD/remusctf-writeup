@@ -65,3 +65,8 @@
       items:
         - name: ELF x86 - 0 protection
           link: ELF x86 - 0 protection
+          
+- name: tryhackme
+  link: /2024-ctf-trainings/tryhackme/
+   - title: "SynkCode"
+    url: SynkCode.md/
