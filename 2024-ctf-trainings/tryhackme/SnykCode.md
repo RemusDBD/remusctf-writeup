@@ -9,10 +9,10 @@ tags:
 
 This is a INFO room from [TryHackMe](https://www.tryhackme.com/) and this room can be found @ https://tryhackme.com/r/room/snykcode. 
 Key lessons learnt here:    
-    Identify security vulnerabilities and understand the significance of integrating security testing throughout the SDLC
-    Set up, configure, and use Snyk Code for analysing codebases and discovering potential issues
-    Remediate discovered vulnerabilities by applying recommended fixes
-    Measure the impact of a security tool implementation via calculating returns on investment 
+    Identify security vulnerabilities and understand the significance of integrating security testing throughout the SDLC <br>
+    Set up, configure, and use Snyk Code for analysing codebases and discovering potential issues <br>
+    Remediate discovered vulnerabilities by applying recommended fixes <br>
+    Measure the impact of a security tool implementation via calculating returns on investment <br>
 
 
 ## Task 3 Understanding Code Security Risks
