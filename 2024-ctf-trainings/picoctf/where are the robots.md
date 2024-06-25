@@ -2,7 +2,7 @@
 title: "where are the robots"
 date: 2024-06-26
 tags:
-  - Web Exploitation -
+  - Web Exploitation
   - picoCTF 2019
 ---
 
