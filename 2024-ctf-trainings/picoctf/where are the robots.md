@@ -1,5 +1,6 @@
-where are the robots | 100 points
-Tags: picoCTF 2019 Web Exploitation (59)
+where are the robots <br>
+100 points <br>
+Tags: picoCTF 2019 | Web Exploitation  <br>
 ```
 ┌──(kali㉿kali)-[~]
 └─$ gobuster dir -u https://jupiter.challenges.picoctf.org/problem/60915/ -w /usr/share/wordlists/dirb/common.txt
