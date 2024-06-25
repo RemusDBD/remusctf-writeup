@@ -1,6 +1,11 @@
-where are the robots <br>
-100 points <br>
-Tags: picoCTF 2019 | Web Exploitation  <br>
+---
+title: "where are the robots"
+date: 2024-06-26
+tags:
+  - Web Exploitation -
+  - picoCTF 2019
+---
+
 ```
 ┌──(kali㉿kali)-[~]
 └─$ gobuster dir -u https://jupiter.challenges.picoctf.org/problem/60915/ -w /usr/share/wordlists/dirb/common.txt
