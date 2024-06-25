@@ -1,6 +1,6 @@
 where are the robots | 100 points
 Tags: picoCTF 2019 Web Exploitation (59)
-
+---
 ┌──(kali㉿kali)-[~]
 └─$ gobuster dir -u https://jupiter.challenges.picoctf.org/problem/60915/ -w /usr/share/wordlists/dirb/common.txt
 
@@ -20,7 +20,7 @@ Starting gobuster in directory enumeration mode
 ===============================================================
 /index.html           (Status: 200) [Size: 431]
 /robots.txt           (Status: 200) [Size: 36]
-
+---
 
 view-source:https://jupiter.challenges.picoctf.org/problem/60915/robots.txt
 
