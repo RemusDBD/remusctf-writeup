@@ -1,3 +1,13 @@
+---
+title: "Insp3ct0r"
+date: 2024-06-26
+tags:
+  - Web Exploitation
+  - picoCTF 2019
+solves:
+  - 111,167
+---
+
 view-source:https://jupiter.challenges.picoctf.org/problem/44924/ <br>
 
 < !-- Html is neat. Anyways have 1/3 of the flag: picoCTF{tru3_d3 --> <br>
