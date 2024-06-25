@@ -1,3 +1,13 @@
+---
+title: "Cookies"
+date: 2024-06-26
+tags:
+  - Web Exploitation
+  - picoCTF 2021
+solves:
+  - 64,996
+---
+
 Firefox Cookie Quick Manager 
 
 Domain : mercury.picoctf.net:6418/check
