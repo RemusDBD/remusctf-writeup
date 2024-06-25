@@ -1,6 +1,6 @@
 view-source:https://jupiter.challenges.picoctf.org/problem/44924/ <br>
 
-<!-- Html is neat. Anyways have 1/3 of the flag: picoCTF{tru3_d3 --> <br>
+< !-- Html is neat. Anyways have 1/3 of the flag: picoCTF{tru3_d3 --> <br>
 
 view-source:https://jupiter.challenges.picoctf.org/problem/44924/mycss.css <br>
 
