@@ -4,6 +4,8 @@ date: 2024-06-26
 tags:
   - Web Exploitation
   - picoCTF 2019
+solves:
+  - 74266
 ---
 
 ```
