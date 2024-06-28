@@ -1,10 +1,10 @@
 - name: Home
   link: /
-- name: ctflearn
-  link: /2023-ctf/ctflearn
+- name: Flare-On
+  link: /writeups/flare-on
   items:
-    - name: 2023
-      link: 2023
+    - name: 2019
+      link: 2019
       items:
         - name: Memecat Battlestation
           link: 1
@@ -31,8 +31,8 @@
         - name: help
           link: 12
 
-    - name: 2023
-      link: 2023
+    - name: 2020
+      link: 2020
       items:
         - name: Fidler
           link: 1
@@ -57,16 +57,68 @@
         - name: rabbithole
           link: 11
 
-- name: root-me.org
-  link: /2023-ctf/root-me.org
-  items:
-    - name: 2023
-      link: 2023
+    - name: 2021
+      link: 2021
       items:
-        - name: ELF x86 - 0 protection
-          link: ELF x86 - 0 protection
-          
-- name: tryhackme
-  link: /2024-ctf-trainings/tryhackme/
-   - title: "SynkCode"
-    url: SynkCode.md/
+        - name: credchecker
+          link: 1
+        - name: known
+          link: 2
+        - name: antioch
+          link: 3
+        - name: myaquaticlife
+          link: 4
+        - name: FLARE Linux VM
+          link: 5
+        - name: PetTheKitty
+          link: 6
+        - name: spel
+          link: 7
+        - name: beelogin
+          link: 8
+        - name: evil
+          link: 9
+        - name: wizardcult
+          link: 10
+
+    - name: 2022
+      link: 2022
+      items:
+        - name: Flaredle
+          link: 1
+        - name: Pixel Poker
+          link: 2
+        - name: Magic 8 Ball
+          link: 3
+        - name: darn_mice
+          link: 4
+        - name: T8
+          link: 5
+        - name: à la mode
+          link: 6
+        - name: anode
+          link: 7
+        - name: backdoor
+          link: 8
+        - name: encryptor
+          link: 9
+        - name: Nur geträumt
+          link: 10
+        - name: The challenge that shall not be named
+          link: 11
+- name: DEFCON
+  link: /writeups/splunk
+  items:
+    - name: 2024
+      link: 2024
+      items:
+        - name: Investigating with Splunk
+          link: Investigating with Splunk
+- name: Miscellaneous
+  link: /writeups/misc
+  items:
+    - name: tuts4you
+      link: tuts4you
+      items:
+        - name: ClumsyVM
+          link: clumsyvm
