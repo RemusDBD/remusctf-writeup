@@ -5,7 +5,7 @@ layout: default
 
 # This site is still editing!
 
-Still working my ass to put my previous writeup here.
+Still working my way to put my previous writeup here.
 
 ## CTF writeups
 
