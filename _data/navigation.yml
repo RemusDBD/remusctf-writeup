@@ -10,3 +10,5 @@
           link: 1
         - name: Splunk Boss of the SOC v1
           link: 2
+        - name: FixIt
+          link: 3
