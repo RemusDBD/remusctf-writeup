@@ -1,6 +1,5 @@
 - name: Home
   link: /
-
 - name: Splunk
   link: /writeups/splunk
   items:
@@ -8,6 +7,6 @@
       link: 2024
       items:
         - name: Investigating with Splunk
-          link: Investigating with Splunk
+          link: 1
         - name: Splunk Boss of the SOC v1
-          link: Splunk Boss of the SOC v1
+          link: 2
