@@ -1,5 +1,5 @@
 ---
-title: Splunk - Dashboard and Report
+title: Splunk - Dashboards and Reports
 layout: default
 platform: tryhackme
 ---
