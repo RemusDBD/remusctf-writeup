@@ -20,7 +20,7 @@ Procedure :<br>
 
 ![](img/roomlayout.png)
 
-3) Use Tool [2] and review source code directly into "com.example.secondapp" > "MainActivity"<br>
+2) Use Tool [2] and review source code directly into "com.example.secondapp" > "MainActivity"<br>
 
 ![](img/jadxgui.png)
 
