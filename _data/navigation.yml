@@ -106,7 +106,7 @@
           link: 10
         - name: The challenge that shall not be named
           link: 11
-- name: DEFCON
+- name: Splunk
   link: /writeups/splunk
   items:
     - name: 2024
