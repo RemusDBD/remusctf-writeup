@@ -9,4 +9,5 @@
       items:
         - name: Investigating with Splunk
           link: Investigating with Splunk
-
+        - name: Splunk Boss of the SOC v1
+          link: Splunk Boss of the SOC v1
