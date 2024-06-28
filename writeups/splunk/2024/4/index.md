@@ -41,9 +41,9 @@ The above-mentioned problems are bound to appear when we deal with a lot of data
 ## Question 1 : 
 <b>"Which search term will show us results from all indices in Splunk?</b>
 
-> Answer : **`index=*`**
-<br>
 ![](img/a1.png)
+> Answer : **`index=*`**
+
 
 ### Creating Reports for Recurring Searches
 
@@ -111,15 +111,16 @@ Create a report from the network-server logs host that lists the ports used in n
 
 `Use query index=* host=network-server`
 
-> Answer : **5**
 ![](img/a2.png)
+> Answer : **5**
+
 
 ## Question 3
 
 While creating reports, which option do we need to enable to get to choose the time range of the report?
 
-> Answer : **Time Range Picker**
 ![](img/a3.png)
+> Answer : **Time Range Picker**
 
 ### Creating Dashboards for Summarizing Results
 
@@ -166,14 +167,16 @@ Create a dashboard from the web-server logs that show the status codes in a line
 
 Use the query `host=web-server | stats count by status_code | sort -count`
 
-> Answer : **400**
 ![](img/a4.png)
+> Answer : **400**
+
 
 ## Question 5
 <b>"What is the name of the traditional Splunk dashboard builder?"</b>
 
-> Answer : **Classic**
 ![](img/a5.png)
+> Answer : **Classic**
+
 
 ### Alerting on High Priority Events
 
