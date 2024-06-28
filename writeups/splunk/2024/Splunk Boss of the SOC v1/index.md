@@ -4,7 +4,7 @@ layout: default
 platform: tryhackme
 ---
 
-#Splunk Boss of the SOC v1
+# Splunk Boss of the SOC v1
 
 ## Scenario : Advanced Persistent Threat
 
