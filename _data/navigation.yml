@@ -1,5 +1,14 @@
 - name: Home
   link: /
+- name: ctflearn
+  link: /writeups/ctflearn
+  items:
+    - name: 2023
+      link: 2023
+      items:
+        - name: Basic Android Reverse Engineering
+          link: 1
+
 - name: Splunk
   link: /writeups/splunk
   items:
