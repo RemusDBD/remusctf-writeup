@@ -34,7 +34,7 @@ From [Task 5 of Splunk: Data Manipulation](https://tryhackme.com/r/room/splunkda
 
 As we can see, the `fixit` app is in the `etc/apps` directory. Knowing we are already in the `/opt/splunk/` , we can put it all together to get the answer.
 
-> Answer: **/opt/splunk/etc/apps/fixit_**
+> Answer: **/opt/splunk/etc/apps/fixit**
 
 ----------
 
@@ -62,7 +62,7 @@ This gives us a place we can create a break so that the event will be together i
 
 ![](img/7.png)
 
-> Answer: **BREAK_ONLY_BEFORE_**
+> Answer: **BREAK_ONLY_BEFORE**
 
 ### Question 3
 <b>"In the inputs.conf, what is the full path of the network-logs script?"</b>
@@ -75,7 +75,7 @@ The contents of the file will be output to the screen. You will see `script://`,
 
 ![](img/9.png)
 
-> Answer: **/opt/splunk/etc/apps/fixit/bin/network-logs_**
+> Answer: **/opt/splunk/etc/apps/fixit/bin/network-logs**
 
 ### Question 4
 <b>"What regex pattern will help us define the Event’s start?"</b>
@@ -94,7 +94,7 @@ Since we know that the event starts with `[Network-log]:` , we can create a simp
 
 Copy and paste the regex query into the THM answer field. Then click _Submit_.
 
-> Answer: **\[Network-log\]:_**
+> Answer: **\[Network-log\]:**
 
 ### Fixing The Multi-line Event
 
@@ -179,7 +179,7 @@ We are about half-way through the sample Network log. Let’s find the Domain. L
 
 Type or copy and paste the answer in the THM answer field. The click _Submit_.
 
-> Answer: **Cybertees.THM_**
+> Answer: **Cybertees.THM**
 
 ### IP Address
 
