@@ -109,7 +109,7 @@ Create a report from the network-server logs host that lists the ports used in n
 ## Question 2 
 <b>"What is the highest number of times any port is used in network connections?"</b>
 
-`Use query index=* host=network-server`
+Use query `index=* host=network-server`
 
 ![](img/a2.png)
 > Answer : **5**
