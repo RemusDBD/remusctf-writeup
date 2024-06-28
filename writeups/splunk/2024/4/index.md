@@ -42,6 +42,7 @@ The above-mentioned problems are bound to appear when we deal with a lot of data
 <b>"Which search term will show us results from all indices in Splunk?</b>
 
 > Answer : **`index=*`**
+<br>
 ![](img/a1.png)
 
 ### Creating Reports for Recurring Searches
