@@ -41,7 +41,8 @@ The above-mentioned problems are bound to appear when we deal with a lot of data
 ## Question 1 : 
 <b>"Which search term will show us results from all indices in Splunk?</b>
 
-> Answer : **(`index=*`)**
+> Answer : **`index=*`**
+![](img/a1.png)
 
 ### Creating Reports for Recurring Searches
 
@@ -74,7 +75,7 @@ Let’s practice the same in the attached Splunk instance. We ran a search in th
 
 So, we have 3 hosts; network-server, web-server, and vpn_server. They are all sending different numbers of events. If we are to determine the number of times each VPN user logged in during our given time window (which is ‘all time’ for this room), we will run the following query.
 
-(`host=vpn_server | stats count by Username`)
+`host=vpn_server | stats count by Username`
 
 This is what we get when we run this query in our instance.
 
@@ -107,15 +108,17 @@ Create a report from the network-server logs host that lists the ports used in n
 ## Question 2 
 <b>"What is the highest number of times any port is used in network connections?"</b>
 
-(`Use query index=* host=network-server`)
+`Use query index=* host=network-server`
 
 > Answer : **5**
+![](img/a2.png)
 
 ## Question 3
 
 While creating reports, which option do we need to enable to get to choose the time range of the report?
 
 > Answer : **Time Range Picker**
+![](img/a3.png)
 
 ### Creating Dashboards for Summarizing Results
 
@@ -160,14 +163,16 @@ Create a dashboard from the web-server logs that show the status codes in a line
 ## Question 4
 <b>"Which status code was observed for the least number of times?"</b>
 
-Use the query (`host=web-server | stats count by status_code | sort -count`)
+Use the query `host=web-server | stats count by status_code | sort -count`
 
 > Answer : **400**
+![](img/a4.png)
 
 ## Question 5
 <b>"What is the name of the traditional Splunk dashboard builder?"</b>
 
 > Answer : **Classic**
+![](img/a5.png)
 
 ### Alerting on High Priority Events
 
