@@ -6,7 +6,7 @@ platform: tryhackme
 
 # FixIt
 
-## Fix the log parsing issue and analyze the logs in Splunk.
+## Scenario : Fix the log parsing issue and analyze the logs in Splunk.
 
 In this challenge room, you will act as John, who has recently cleared his third screening interview for the SOC-L2 position at MSSP Cybertees Ltd, and a final challenge is ready to test your knowledge, where you will be required to apply the knowledge to FIX the problems in Splunk.  
 You are presented with a Splunk Instance and the network logs being ingested from an unknown device.
