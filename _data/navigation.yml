@@ -12,3 +12,5 @@
           link: 2
         - name: FixIt
           link: 3
+        - name: Splunk: Dashboards and Reports
+          link: 4
