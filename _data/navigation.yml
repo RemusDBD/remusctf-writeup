@@ -8,6 +8,12 @@
       items:
         - name: Basic Android Reverse Engineering
           link: 1
+          
+- name: root-me.org
+  link: /writeups/root-me.org
+  items:
+        - name: Cracking LF x86 - 0 protection
+          link: 1
 
 - name: Splunk
   link: /writeups/splunk
