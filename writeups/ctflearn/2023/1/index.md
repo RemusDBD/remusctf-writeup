@@ -1,6 +1,6 @@
 Basic Android RE 1 
 <br>
-Link to the Room : (https://ctflearn.com/challenge/962)[https://ctflearn.com/challenge/962]
+[Link](https://ctflearn.com/challenge/962) to this Room 
 
 Date Start : 5/11/2023
 Date Finish : 5/11/2023
