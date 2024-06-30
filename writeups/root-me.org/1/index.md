@@ -1,6 +1,6 @@
 LF x86 - 0 protection
 <br>
-Link to the Room : [https://www.root-me.org/en/Challenges/Cracking/ELF-x86-0-protection](https://www.root-me.org/en/Challenges/Cracking/ELF-x86-0-protection)
+[Link](https://www.root-me.org/en/Challenges/Cracking/ELF-x86-0-protection) to this room 
 
 Date Start : 7/12/2023 Date Finish : 7/12/2023
 
