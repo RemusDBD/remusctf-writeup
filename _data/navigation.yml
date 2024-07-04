@@ -24,6 +24,34 @@
         - name: Cracking LF x86 - 0 protection
           link: 1
 
+          
+- name: PicoCTF-Training(editing)
+  link: /writeups/picoctf-training
+  items:
+    - name: 2024
+      link: 2024
+      items:
+        - name: Cookies
+          link: 1
+        - name: GET aHEAD
+          link: 2
+        - name: Insp3ct0r
+          link: 3
+        - name: Dont use client side
+          link: 4
+        - name: where are the robots
+          link: 5
+          
+- name: Tryhackme(editing)
+  link: /writeups/Tryhackme
+  items:
+    - name: 2024
+      link: 2024
+      items:
+        - name: SnykCode
+          link: 1
+          
+
 - name: Splunk
   link: /writeups/splunk
   items:
