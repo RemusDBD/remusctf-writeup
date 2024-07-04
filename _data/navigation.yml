@@ -9,6 +9,15 @@
         - name: Basic Android Reverse Engineering
           link: 1
           
+- name: Hacker101
+  link: /writeups/hacker101
+  items:
+    - name: 2024
+      link: 2024
+      items:
+        - name: Micro-CMS v1
+          link: 1
+          
 - name: root-me.org
   link: /writeups/root-me.org
   items:
