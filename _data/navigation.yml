@@ -1,5 +1,24 @@
 - name: Home
   link: /
+
+- name: CTF - HKCERT (editing)
+  link: /writeups/hkcert
+  items:
+    - name: 2023
+      link: 2023
+      items:
+        - name: HKCERT CTF 2023 (Open Division)
+          link: 1
+
+- name: CTF - HTB (editing)
+  link: /writeups/CTF-HTB
+  items:
+    - name: 2024
+      link: 2024
+      items:
+        - name: HTB Cyber Apocalypse CTF 2024
+          link: 1
+
 - name: ctflearn
   link: /writeups/ctflearn
   items:
