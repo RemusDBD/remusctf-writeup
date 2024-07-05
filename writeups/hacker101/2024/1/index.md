@@ -264,7 +264,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 Pretty much nothing useful on recon. The web plugin is the lastest version no way I am finding a new CVE for a EASY room.
 Meanwhile I have already found 2 flags while the scans are running
 
-# XSS (Cross-Site Scripting)
+## XSS (Cross-Site Scripting)
 
 ![](img/1.png)
 
@@ -283,7 +283,7 @@ When you refresh it, XSS got triggered.
 ![](img/3.png)
 
 
-# IDOR (Insecure Direct Object Reference)
+## IDOR (Insecure Direct Object Reference)
 
 Second flag was found by using Insecure Direct Object Reference
 
@@ -298,7 +298,7 @@ And finding keyword on "Title"
 
 And I knew I could do sth on it.
 
-# Another XSS (Cross-Site Scripting)
+## Another XSS (Cross-Site Scripting)
 
 ![](img/5.png)
 
@@ -327,7 +327,7 @@ html
 </html>
 ```
 
-# SQL Injection
+## SQL Injection
 Finally last flag,
 ![](img/7.png)
 
