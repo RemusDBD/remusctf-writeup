@@ -8,7 +8,9 @@ platform: hacker101
 
 ## Background
 First time playing on hacker101 ctf training, its hints pretty much trash 
-since 1) need to wait for lots of time to show just a single hint 2) you can't choose which flag to show hints 
+since 
+<br> 1) need to wait for lots of time to show just a single hint 
+<br> 2) you can't choose which flag to show hints 
 I have to acutally google myself to find hints online.
 
 In fact I wasted lots of time on doing recon on this Tagged <b>Easy</b> room.
