@@ -120,38 +120,6 @@ PORT    STATE SERVICE  REASON  VERSION
 | MD5:   8d61:3121:ad31:3b2a:2d81:2009:d402:7e63
 | SHA-1: abcd:c219:e7bc:9bfb:1105:51b4:12b8:0d5a:8251:af34
 | -----BEGIN CERTIFICATE-----
-| MIIF0TCCBLmgAwIBAgIQBpDVm90/elsmWDeKcMCPITANBgkqhkiG9w0BAQsFADA8
-| MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRwwGgYDVQQDExNBbWF6b24g
-| UlNBIDIwNDggTTAyMB4XDTI0MDEwOTAwMDAwMFoXDTI1MDIwNzIzNTk1OVowHjEc
-| MBoGA1UEAwwTKi5jdGYuaGFja2VyMTAxLmNvbTCCASIwDQYJKoZIhvcNAQEBBQAD
-| ggEPADCCAQoCggEBAK63/mitZIiVnS9uAgxSuoMOrXZBnghPv8cxdxuteXqliA2W
-| RCUogmScBulInY4Mdn1tvK6iESxrdE5wnzigOsr5bbOHZJI8/WL7orDwEAFOdVQp
-| y6ZyHhDFeqFYA1zSsHFM6maKi4d+PXWYM7GBdVQBB08Pn5sA0CbdTdih8dBhmp0c
-| rjWxDxmLg4WKcrQx1/u3HjWIfesjtyRgu8YRzGsYgzSPpLItaXd9js4burP26mG9
-| kh06bZfJ0j+KTaLLBwPZYn8UIQFueBiqNAaq9xF6soIVStLeeMDgKfeYFUNZPKcZ
-| 5VB1EhSOZiXXsj6VILWs8PpEA2XqPyeC60VdJ08CAwEAAaOCAuswggLnMB8GA1Ud
-| IwQYMBaAFMAxUs1aUMOCfHRxzsvpnPl664LiMB0GA1UdDgQWBBRKCSVO+oHMIhpE
-| LNNmPDXLoCD5mzAeBgNVHREEFzAVghMqLmN0Zi5oYWNrZXIxMDEuY29tMBMGA1Ud
-| IAQMMAowCAYGZ4EMAQIBMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEF
-| BQcDAQYIKwYBBQUHAwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5yMm0w
-| Mi5hbWF6b250cnVzdC5jb20vcjJtMDIuY3JsMHUGCCsGAQUFBwEBBGkwZzAtBggr
-| BgEFBQcwAYYhaHR0cDovL29jc3AucjJtMDIuYW1hem9udHJ1c3QuY29tMDYGCCsG
-| AQUFBzAChipodHRwOi8vY3J0LnIybTAyLmFtYXpvbnRydXN0LmNvbS9yMm0wMi5j
-| ZXIwDAYDVR0TAQH/BAIwADCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFnAHYATnWj
-| J1yaEMM4W2zU3z9S6x3w4I4bjWnAsfpksWKaOd8AAAGM6/1r6wAABAMARzBFAiEA
-| 3j5+nH+NtKGjkPxuH2RfkgT/eD/Zj/AAlmmOqcxH0ewCIDpO9dCXRWnxljpCxa23
-| PzbxUABZncsFDRln5td8L4LTAHYAVYHUwhaQNgFK6gubVzxT8MDkOHhwJQgXL6Oq
-| HQcT0wwAAAGM6/1sBwAABAMARzBFAiEArdczfXOh+ZXYjdDayUtmFbwUUy9tFDhS
-| EgBlFb+LQwQCIFGwSOWjftf44/pDCfVpZDY/Wxx9OxqDxlq8bjqvkvR6AHUAfVke
-| EuF4KnscYWd8Xv340IdcFKBOlZ65Ay/ZDowuebgAAAGM6/1rmgAABAMARjBEAiAH
-| 5sHeiJtf5ZM85knwRVwsN/BOayEqo8bDyz7gONB5LAIgYMxHnKMSRSdli6QzghEZ
-| 5gR8+IDtH9gvvWT52+rsm9QwDQYJKoZIhvcNAQELBQADggEBAA6uuKPdnQz0Cxde
-| HbTLsWpxo6FFmkbEGgybToH+LYVIxEo7PrUczFLbLTfyAp6ZU23E/DaIYLcl+yck
-| AInKiY5gwywgpQsLDWNhdeAaFO76PUiyC1mSRn82i3a7MifOPEPkINLTgUC2vgFz
-| V+5ykfAz75y6OZGfap6PhYoaKHaRJgd/2QcsAEUW5jOiD+maYDrF6HJvQGJgiv35
-| tja3VmhLKwBMOuLqxqlQ5ChiGXo8Gp+RrXiN9wE4/YlV+bdjOwWJ0XtyPqbmb/qD
-| fbD6diclmgbw0CcZWZoBup3UldfDU4U6YS1GCJE++mxErD7i3Ay3BZm7f1ytCmi4
-| 12CYVd0=
 |_-----END CERTIFICATE-----
 |_http-title: Micro-CMS
 |_http-server-header: openresty/1.25.3.1
@@ -249,7 +217,6 @@ Error: error on running gobuster: unable to connect to http://c5e170b6eefb480456
 + : Server banner changed from 'openresty/1.25.3.1' to 'awselb/2.0'.
 + Server is using a wildcard certificate: *.ctf.hacker101.com. See: https://en.wikipedia.org/wiki/Wildcard_certificate
 + OPTIONS: Allowed HTTP Methods: GET, HEAD, OPTIONS .
-
 + /#wp-config.php#: #wp-config.php# file found. This file contains the credentials.
 + 8130 requests: 0 error(s) and 8 item(s) reported on remote host
 + End Time:           2024-07-04 18:03:23 (GMT-4) (7338 seconds)
@@ -262,20 +229,6 @@ Error: error on running gobuster: unable to connect to http://c5e170b6eefb480456
 ```
 ┌──(kali㉿kali)-[~/Desktop/room/hacker101/micro-cms]
 └─$ wpscan --url https://c5e170b6eefb4804564b164fafea6d50.ctf.hacker101.com
-_______________________________________________________________
-         __          _______   _____
-         \ \        / /  __ \ / ____|
-          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
-           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
-            \  /\  /  | |     ____) | (__| (_| | | | |
-             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
-
-         WordPress Security Scanner by the WPScan Team
-                         Version 3.8.25
-       Sponsored by Automattic - https://automattic.com/
-       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
-_______________________________________________________________
-
 
 Scan Aborted: The remote website is up, but does not seem to be running WordPress.
 ```
@@ -285,9 +238,6 @@ Scan Aborted: The remote website is up, but does not seem to be running WordPres
 ```
 ┌──(kali㉿kali)-[~/…/tool/web/recon/SSTImap-1.2]
 └─$ python sstimap.py -u https://c5e170b6eefb4804564b164fafea6d50.ctf.hacker101.com
-/home/kali/.local/lib/python3.11/site-packages/requests/__init__.py:102: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (5.2.0)/charset_normalizer (2.0.12) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({})/charset_normalizer ({}) doesn't match a supported "
-
     ╔══════╦══════╦═══════╗ ▀█▀                                                              
     ║ ╔════╣ ╔════╩══╗ ╔══╝═╗▀╔═                                                             
     ║ ╚════╣ ╚════╗  ║ ║    ║{║  _ __ ___   __ _ _ __                                        
@@ -309,7 +259,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 [-] Tested parameters appear to be not injectable.
 ```
 
-Pretty much nothing useful on recon. The web plguin is the lastest version no way I am finding a new CVE for a EASY room.
+Pretty much nothing useful on recon. The web plugin is the lastest version no way I am finding a new CVE for a EASY room.
 Meanwhile I have already found 2 flags while the scans are running
 
 # XSS (Cross-Site Scripting)
