@@ -15,7 +15,7 @@ In fact I wasted lots of time on doing recon on this Tagged <b>Easy</b> room.
 
 [Link](https://ctf.hacker101.com/ctf/start/2) to this Room 
 
-##Recon
+## Recon
 
 ### nuclei
 ```
@@ -58,7 +58,7 @@ In fact I wasted lots of time on doing recon on this Tagged <b>Easy</b> room.
 [INF] Skipped c5e170b6eefb4804564b164fafea6d50.ctf.hacker101.com:443 from target list as found unresponsive 30 times
 ```
 
-### nmap
+### Nmap
 
 ```
 ┌──(kali㉿kali)-[~/Desktop/room/hacker101/micro-cms]
@@ -257,7 +257,7 @@ Error: error on running gobuster: unable to connect to http://c5e170b6eefb480456
 + 1 host(s) tested
 ```
 
-###wpscan
+### wpscan
 
 ```
 ┌──(kali㉿kali)-[~/Desktop/room/hacker101/micro-cms]
@@ -280,7 +280,7 @@ _______________________________________________________________
 Scan Aborted: The remote website is up, but does not seem to be running WordPress.
 ```
 
-###sstimap
+### sstimap
 
 ```
 ┌──(kali㉿kali)-[~/…/tool/web/recon/SSTImap-1.2]
@@ -312,7 +312,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 Pretty much nothing useful on recon. The web plguin is the lastest version no way I am finding a new CVE for a EASY room.
 Meanwhile I have already found 2 flags while the scans are running
 
-#XSS (Cross-Site Scripting)
+# XSS (Cross-Site Scripting)
 
 ![](img/1.png)
 
@@ -373,7 +373,7 @@ html
 </html>
 ```
 
-#SQL Injection
+# SQL Injection
 Finally last flag,
 ![](img/7.png)
 
@@ -381,4 +381,6 @@ Finally last flag,
 
 pretty much this should follow up with IDOR.
 
-Overall, this room is pretty much spam as much as different types of payload you could to get the flag.
+# Summary
+
+Overall, this room is pretty much spam as much as different types of payload you could to get all the flags.
