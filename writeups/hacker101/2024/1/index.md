@@ -321,13 +321,15 @@ First flag was found by using Sample Cross Site Scripting
 Payload shows below:
 
 ![](img/2.png)
+
 `<img src=x onerror="alert('XSS')"`
 
 Acutally was thinking Markdown-based XSS since it shows Markdown is suppoted, but scripts are not, however you can see in first img it got filtered.
 
+When you refresh it, XSS got triggered.
+
 ![](img/3.png)
 
-When you refresh it, it got triggered.
 
 #IDOR (Insecure Direct Object Reference)
 
