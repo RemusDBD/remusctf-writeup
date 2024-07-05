@@ -291,8 +291,8 @@ Second flag was found by using Insecure Direct Object Reference
 
 usually we change `id=''` paramaters right this room we change the `/page/''/` to get the flag.
 
-After I succuessfully located two flags I was stuck here and start all the recon tools above and still stucking.
-Finding hints worked like trash and moved to google myself.
+After I successfully located two flags I was stuck here and start all the recon tools above and still stucking.
+Finding hints worked like trash and moved to google this room writeup for hints myself.
 
 And finding keyword on "Title"
 
@@ -302,13 +302,13 @@ And I knew I could do sth on it.
 
 ![](img/5.png)
 
-same payload 
+Same payload 
 `<img src=x onerror="alert('XSS')"`
 
 ![](img/6.png)
-but another flag. How stupid am I.
+But another flag. How stupid I am.
 
-The room also is vulnerable to CSRF but unsucessful to locate where the shell.php has been uploaded to
+The room also is vulnerable to CSRF but unsucessful to upload any shell to the room.
 payload:
 ```
 html
