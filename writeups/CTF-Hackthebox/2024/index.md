@@ -39,7 +39,7 @@ Reverse engineering
     Packedaway
     Boxcutter
 
-Crypto
+Cryptography
 
     Iced tea
     Primary knowledge
