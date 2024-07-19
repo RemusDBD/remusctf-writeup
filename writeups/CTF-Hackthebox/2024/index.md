@@ -3,6 +3,55 @@ title: Hackthebox CTF
 layout: default
 ---
 
-# HackTheBox CTF
+# HTB Cyber Apocalypse CTF 2023
 
-This directory contains write ups from [HackTheBox](https://www.hackthebox.com/events/cyber-apocalypse-2024) CTF.
+![](img/DREwio2TXADvSLScO07rux2olm6vjUoEXQPPAKBC.jpg)
+
+## Score #690 of #5693
+
+![](img/19735b386a5144a7.png)
+
+### Finished Room :
+
+MISC
+
+    Stop drop and roll
+    Character
+
+Forensics
+
+    Fake boost
+    Phreaky
+    Pursue the tracks
+    Urgent
+    An unusual sighting
+    It has begun
+
+Web
+
+    Korp terminal
+    Timekorp
+    Flag command
+
+Reverse engineering
+
+    Lootstash
+    Packedaway
+    Boxcutter
+
+Crypto
+
+    Iced tea
+    Primary knowledge
+    Makeshift
+    Dynastic
+
+Pwn
+
+    Tutorial
+
+Hardware
+
+    Rids
+    Bunnypass
+    Maze
