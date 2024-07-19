@@ -14,11 +14,23 @@ layout: default
 
 
 ### Finished Room :
-1) Sanity check | MISC
-2) Sign me a Flag (I) | Crypto
-3) Psychic AI  | MISC
-4) Re:Zero | WEB
-5) Baby XSS again | WEB
-6) ST Code (I)  | MISC
-7) Feedback | MISC
-8) Gacha Simulator | Reverse
+
+MISC
+
+    Sanity check
+    Psychic AI
+    ST Code (I)
+    Feedback
+
+Crypto
+
+    Sign me a Flag (I)
+
+Web
+
+    Re:Zero
+    Baby XSS again
+
+Reverse Engineering
+
+    Gacha Simulator
