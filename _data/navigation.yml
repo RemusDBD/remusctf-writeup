@@ -2,7 +2,7 @@
   link: /
 
 - name: CTF - HKCERT (editing)
-  link: /writeups/hkcert
+  link: /writeups/CTF-HKCERT
   items:
     - name: 2023
       link: 2023
