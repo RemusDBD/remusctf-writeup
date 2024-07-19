@@ -3,7 +3,7 @@ title: Hackthebox CTF
 layout: default
 ---
 
-# HTB Cyber Apocalypse CTF 2023
+# HTB Cyber Apocalypse CTF 2024
 
 ![](img/DREwio2TXADvSLScO07rux2olm6vjUoEXQPPAKBC.jpg)
 
