@@ -4,20 +4,20 @@
 - name: CTF - HKCERT (editing)
   link: /writeups/CTF-HKCERT
   items:
-    - name: 2023
+    - name: HKCERT CTF 2023
       link: 2023
       items:
-        - name: HKCERT CTF 2023 (Open Division)
-          link: 1
+        - name: Sign me a Flag (I)
+          link: Sign me a Flag (I)
 
 - name: CTF - HTB (editing)
   link: /writeups/CTF-Hackthebox
   items:
-    - name: 2024
+    - name: Cyber Apocalypse CTF 2024
       link: 2024
       items:
-        - name: HTB Cyber Apocalypse CTF 2024
-          link: 1
+        - name: Forensics - Urgent
+          link: Forensics - Urgent
 
 - name: ctflearn
   link: /writeups/ctflearn
