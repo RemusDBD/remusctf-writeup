@@ -11,7 +11,7 @@
           link: 1
 
 - name: CTF - HTB (editing)
-  link: /writeups/CTF-HTB
+  link: /writeups/CTF-Hackthebox
   items:
     - name: 2024
       link: 2024
