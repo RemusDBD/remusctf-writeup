@@ -44,7 +44,7 @@ body {
 
 .sidebar .nav-sub-link {
     font-weight: 400;
-    color: #080808;
+    color: #ffffff;
     padding-top: 0;
     padding-bottom: 0.3em;
     padding-left: 0.5em;
@@ -52,7 +52,7 @@ body {
 }
 
 .sidebar .nav-sub-link:hover {
-    color: #f0f0f0;
+    color: #00ff2a;
     animation: none;
 }
 
@@ -67,7 +67,7 @@ body {
 
 .sidebar .nav-link:hover .feather,
 .sidebar .nav-link.active .feather {
-    color: inherit;
+    color: #00ff22;
 }
 
 .sidebar-heading {
