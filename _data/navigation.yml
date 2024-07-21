@@ -70,7 +70,15 @@
         - name: SnykCode
           link: 1
           
-
+- name: pwnable.kr
+  link: /writeups/pwnable.kr
+  items:
+    - name: 2024
+      link: 2024
+      items:
+        - name: fd
+          link: 1
+          
 - name: Splunk
   link: /writeups/splunk
   items:
