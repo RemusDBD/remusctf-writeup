@@ -13,8 +13,6 @@ body {
 */
 
 .sidebar {
-    display: flex;
-    flex-direction: column;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -36,7 +34,6 @@ body {
     height: calc(100vh - 48px);
     padding-top: 0.5rem;
     overflow-x: hidden;
-    flex: 1;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }
 
@@ -95,10 +92,9 @@ ol.submenu {
 .sidebar-footer {
     padding: 1em;
     font-size:0.8rem;
-    color: #808080;
-    margin-top: auto;
     position: absolute;
     bottom: 0px;
+    color: #808080;
 }
 
 .sidebar-footer > a:link {
