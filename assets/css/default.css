@@ -1,5 +1,5 @@
 body {
-    background: rgb(0, 0, 0);
+    background: rgb(30, 30, 30);
 }
 
 .feather {
@@ -38,13 +38,13 @@ body {
 }
 
 .sidebar .nav-link {
-    font-weight: 600;
-    color: #00ff22;
+    font-weight: 500;
+    color: #f0f0f0;
 }
 
 .sidebar .nav-sub-link {
-    font-weight: 600;
-    color: #ffffff;
+    font-weight: 400;
+    color: #a0a0a0;
     padding-top: 0;
     padding-bottom: 0.3em;
     padding-left: 0.5em;
@@ -52,7 +52,7 @@ body {
 }
 
 .sidebar .nav-sub-link:hover {
-    color: #00ff2a;
+    color: #f0f0f0;
     animation: none;
 }
 
@@ -67,7 +67,7 @@ body {
 
 .sidebar .nav-link:hover .feather,
 .sidebar .nav-link.active .feather {
-    color: #00ff22;
+    color: inherit;
 }
 
 .sidebar-heading {
@@ -144,7 +144,6 @@ ol.submenu {
 
 .nav-items-container {
     height: 100%;
-    flex: 1
     overflow-y: auto;
 }
 
