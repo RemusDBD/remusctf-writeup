@@ -36,7 +36,7 @@ body {
     height: calc(100vh - 48px);
     padding-top: 0.5rem;
     overflow-x: hidden;
-    flex: 1
+    flex: 1;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }
 
