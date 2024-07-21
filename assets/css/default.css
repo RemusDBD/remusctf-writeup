@@ -95,9 +95,8 @@ ol.submenu {
 .sidebar-footer {
     padding: 1em;
     font-size:0.8rem;
-    position: absolute;
-    bottom: 0px;
     color: #808080;
+    margin-top: auto;
 }
 
 .sidebar-footer > a:link {
