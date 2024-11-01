@@ -93,3 +93,12 @@
           link: 3
         - name: Splunk Dashboards and Reports
           link: 4
+          
+- name: portswigger
+  link: /writeups/portswigger
+  items:
+    - name: 2024
+      link: 2024
+      items:
+        - name: Stored DOM XSS
+          link: 1
